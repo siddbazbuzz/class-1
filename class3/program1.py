@@ -1,0 +1,10 @@
+name=input("enter your full name (firstname middlename lastname):")
+splitted_text = name.split(" ")
+
+print(splitted_text)
+print(f"first name is {splitted_text[0]}")
+print(f"middle name is {splitted_text[1]}")
+print(f"last name is {splitted_text[2]}")
+print(len(name))
+print(name.replace("bajra","ratna",1))
+print(name[::-1])
